@@ -27,7 +27,7 @@ from torch.utils.data import DataLoader, ConcatDataset
 
 import argparse
 from utils import inception_utils
-from dataloader import (CelebAMaskDataset)
+from dataloader.dataset import CelebAMaskDataset
 import pickle
 
 @torch.no_grad()
